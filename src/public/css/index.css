@@ -87,7 +87,11 @@
     white-space: nowrap;
 }
 
+.plan-list {
+    text-align: center;
+}
+
 .plan-list-button {
-    color: blue;
+    color: red;
     text-decoration: none;
 }
