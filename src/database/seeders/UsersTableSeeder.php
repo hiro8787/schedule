@@ -1,0 +1,23 @@
+<?php
+
+namespace Database\Seeders;
+
+use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
+
+class UsersTableSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     */
+    public function run(): void
+    {
+        $param = [
+            'name' => 'test',
+            'email' => 'test@example.com',
+            'password' => bcrypt('password'),
+        ];
+        DB::table('users')->insert($param);
+    }
+}
