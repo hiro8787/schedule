@@ -89,3 +89,8 @@
 .plan-list {
     text-align: center;
 }
+
+.plan-list-button {
+    color: red;
+    text-decoration: none;
+}
