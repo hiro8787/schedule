@@ -86,3 +86,12 @@
     text-align: center;
     white-space: nowrap;
 }
+
+.plan-list {
+    text-align: center;
+}
+
+.plan-list-button {
+    color: red;
+    text-decoration: none;
+}
