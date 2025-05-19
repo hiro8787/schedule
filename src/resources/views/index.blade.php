@@ -83,6 +83,7 @@
     </div>
     <div class="plan-list">
         <a class="plan-list-button" href="./plans/list">予定一覧</a>
+        <div>test</div>
     </div>
 </div>
 <script src="{{ asset('/js/calendar.js') }}"></script>
