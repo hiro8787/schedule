@@ -82,7 +82,7 @@
         @endforeach
     </div>
     <div class="plan-list">
-        <a class="plan-list-button" href="./plans/list">予定一覧</a>
+        <a class="plan-list-button" href="./plans/list">test予定一覧</a>
         <div>test</div>
     </div>
 </div>
